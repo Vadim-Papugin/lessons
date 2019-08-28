@@ -38,7 +38,7 @@
     padding: 0;
     list-style-type: none;
 }
-.items-1 li{
+.items-1 li {
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
     padding-left: 30px;
     font-family: ArialMT;
@@ -61,7 +61,6 @@
     background-image: ('https://www.seekpng.com/png/detail/44-447774_green-tick-clipart-light-green-icon.png');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .header-foto{
     width: 469px;
@@ -71,19 +70,25 @@
     background-color: #ffffff
 }
 .padge-content{
-
+  width: 100%;
+  height: auto;
 }
 .section-2{
     width: 1280px;
-    min-height: 2863;
-
+    height: 800px;
 }
 .text-section-2{
-
+   display: block;
+   float: left;
+   width: auto;
+   min-height: 400px;
 }
-.title-2{  width: 254px;
+.title-2{
+    width: 50%;
     height: 28px;
     margin: 0;
+    padding: 15px 0;
+    float: left;
     font-family: ArialMT;
     font-size: 30px;
     line-height: 36px;
@@ -91,8 +96,10 @@
     color: #445161;
 }
 .text-2-section-2{
-    width: 64p9x;
-    height: 63px;
+   display: block;
+   float: left;
+    width: 80%;
+    min-height: 63px;
     margin: 0;
     font-family: ArialMT;
     font-size: 16px;
@@ -100,12 +107,16 @@
     font-weight: 400;
     color: #333333;
 }
-}
 .video-section-2{
-    width: 430px;
-    height: 245px;
-    color: #445161;
-    float: right;
+  display: block;
+  float: right;
+  width: 100px;
+  height: 245px;
+  color: #445161;
+}
+.section-3-pluses-product {
+  width: 100px%;
+  height: auto;
 }
 .prices {
   display: flex;
@@ -115,7 +126,7 @@
   align-items: flex-end;
   width: 100%;
   padding: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   background-color: #fff;
   box-sizing: border-box;
 }
